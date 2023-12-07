@@ -1,0 +1,14 @@
+.scroll-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .scroll-button:hover {
+    transform: translateX(-50%) scale(1.5); 
+  }

@@ -1,0 +1,40 @@
+#section1 {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .content {
+   align-items: center;
+    z-index: 1;
+    color: white;
+  }
+  .content h1{
+    font-family: 'TT Interphases Pro Mono Trl';
+    font-size: 100px;
+  }
+  .content p{
+    font-family: 'TT Interphases Pro Mono Trl';
+    font-size: 30px;
+  }
